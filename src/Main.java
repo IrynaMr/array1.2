@@ -1,23 +1,21 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        // 1
-        int a = 33;
-        int b =2;
-        int d =a%b;
-        double c =(double)a/b;
-        System.out.println(c);
-        System.out.println(d);
         //2
-        int x=12;
-        int y=x/10;
-        int n=x%10;
-        int h=y+n;
-        System.out.println(h);
-        //3
-        double g=32.5;
-        int j = (int)(g+0.5);
-        System.out.println("Округлене число"+j);
-    }
+int array [] = new array[20];
+        for (int i = 0; i < array.length; i++) {
+            array[i]=(int)(Math.random()*10);
+        }
+        System.out.println("Початковий масив:");
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i] + " ");
+        }
+        System.out.println();
+        for (int i = 1; i < array.length; i+=2) {
+            array[i]=0;
+        }
+        System.out.println("Оновлений  масив:");
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i] +" ");
+        }
 }
+ }
